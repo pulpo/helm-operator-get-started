@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: pulpo/podinfo:dev-hdtwcel9
+    image: pulpox/podinfo:dev-hdtwcel9
     replicaCount: 1
     hpa:
       enabled: false
